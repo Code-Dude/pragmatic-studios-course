@@ -6,6 +6,6 @@ fundraiser1_amount = 1000
 fundraiser2_amount = 200
 fundraiser3_amount = 0
 
-puts "#{fundraiser1} has $#{1000} raised so far!"
-
-puts "\nProjects:\n\t#{fundraiser1}\n\t#{fundraiser2}\n\t#{fundraiser3}"
+puts "#{fundraiser1.ljust(10,"*")}$#{fundraiser1_amount}"
+puts "#{fundraiser2.ljust(10,"*")}$#{fundraiser2_amount}"
+puts "#{fundraiser3.ljust(10,"*")}$#{fundraiser3_amount}"
